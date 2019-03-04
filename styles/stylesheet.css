@@ -61,6 +61,16 @@ footer small {
   max-width: 1040px;
   margin: auto;
   padding: 20px;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row: auto;
+  grid-template-areas: 
+  "h h h h"
+  "i i i i"
+  "c c c c"
+  "l l l p"
+  "d d d d";
+
 }
 
 body {
@@ -76,31 +86,61 @@ h1 {
   padding-top: 10px;
 }
 
+.title {
+  grid-area: h;
+}
+
+.intro, .story {
+  grid-area: i;
+}
+
+.classes, .meet-instructors {
+  grid-area: c;
+}
+
+.lessons, .faq-section {
+  grid-area: l;
+}
+
+.podcast {
+  grid-area: p;
+}
+
+@media (max-width: 750px) {
+  .container {
+    grid-template-areas: 
+      "h h h h"
+      "i i i i"
+      "c c c c"
+      "l l l l"
+      "p p p p"
+      "d d d d";
+  }
+}
+
+.disclaimer {
+  grid-area: d;
+}
+
 h2 {
   font-weight: bold;
   font-size: 24px;
 }
 
 .instructors {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  grid-column-gap: 30px;
-  padding-bottom: 20px;
-}
-
-@media (max-width: 669px) {
-  .instructors {
-    column-count: 1;
-  }
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .instructors div {
-  width: 90%;
+  max-width: 250px;
   border: 1px solid #ECB722;
   padding-top: 15px;
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
+  grid-column: span 4;
 }
 
 .instructors strong {
