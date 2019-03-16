@@ -1,6 +1,6 @@
 header {
-  background-color: #03A3DF;
-  padding: 10px
+  background-color: #036081;
+  padding: 0.625rem;
 }
 
 img.logo {
@@ -9,7 +9,7 @@ img.logo {
 
 header nav ul {
   text-align: center;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 @media (min-width: 580px) {
@@ -21,7 +21,7 @@ header nav ul {
 
 nav li, nav a {
   display: inline-block;
-  padding: 15px;
+  padding: 0.9375rem;
   color: #FFF;
   text-decoration: none;
   
@@ -32,13 +32,13 @@ nav li.active {
 }
 
 nav a:hover {
-  color: #ECB722;
+  color: #F8E2A5;
 }
 
 footer {
   background: url("../images/footer-image.jpg") no-repeat;
-  margin-top: 20px;
-  padding: 10px 20px 0;
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem 0;
 }
 
 footer nav {
@@ -46,7 +46,7 @@ footer nav {
 }
 
 footer nav ul {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 footer small {
@@ -54,13 +54,13 @@ footer small {
   display: block;
   text-align: center;
   color: #FFF;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .container {
   max-width: 1040px;
   margin: auto;
-  padding: 20px;
+  padding: 1.25rem;
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);
   grid-row: auto;
@@ -76,14 +76,14 @@ footer small {
 body {
   color: #444;
   font-family: arial;
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #1B447F;
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 .title {
@@ -124,7 +124,7 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .instructors {
@@ -135,46 +135,46 @@ h2 {
 
 .instructors div {
   max-width: 250px;
-  border: 1px solid #ECB722;
-  padding-top: 15px;
+  border: 1px solid #F8E2A5;
+  padding-top: 0.9375rem;
   text-align: center;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
   grid-column: span 4;
 }
 
 .instructors strong {
   color: #1B447F;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .instructors img {
   display: block;
   margin: auto;
-  padding: 10px;
+  padding: 0.625rem;
   border-bottom: 4px solid #03A3DF;
 }
 
 .faq {
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .faq li:nth-child(even) {
    list-style: none;
-   padding-bottom: 10px;
-   margin: 20px;
+   padding-bottom: 0.625rem;
+   margin: 1.25rem;
 }
 
 dt {
   font-weight: 700;
   color: #1B447F;
-  margin-left: 20px;
-  padding: 10px 0;
+  margin-left: 1.25rem;
+  padding: 0.625rem 0;
 }
 
 .lessons {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .cta {
@@ -182,9 +182,9 @@ dt {
 }
 
 .cta button {
-  padding: 20px;
-  background-color: #ECB722;
-  font-size: 16px;
+  padding: 1.25rem;
+  background-color: #F8E2A5;
+  font-size: 1rem;
   color: #1B447F;
   font-weight: bold;
   text-align: center;
@@ -192,5 +192,5 @@ dt {
 }
 
 .podcast {
-  padding: 20px 10px 30px;
+  padding: 1.25rem 0.625rem 1.875rem;
 }
